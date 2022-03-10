@@ -1,3 +1,23 @@
+html {
+	font-family: "Inter", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./images/pattern-curve.svg);
+}
+
+.slide-2 {
+	display: none;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
