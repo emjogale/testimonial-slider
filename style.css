@@ -46,7 +46,7 @@ p {
 	padding: 1.8rem 1.5rem 1.5rem 1.5rem;
 	background: url(/images/pattern-bg.svg) no-repeat center;
 	background-size: contain;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .slide-image img {
@@ -55,8 +55,9 @@ p {
 }
 
 .slide-text {
-	padding: 3rem 0;
+	padding: 1.5rem 0;
 	background: url(./images/pattern-quotes.svg) no-repeat top center;
+	background-size: 5rem;
 }
 
 .slide-text .text {
@@ -82,6 +83,13 @@ p {
 @media only screen and (min-width: 1025px) {
 	.slider {
 		max-width: 80%;
+	}
+}
+
+/* very narrow screens */
+@media only screen and (max-width: 350px) {
+	.slide-image img {
+		width: 180px;
 	}
 }
 .attribution {
