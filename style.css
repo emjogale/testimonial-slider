@@ -8,7 +8,8 @@ html {
 }
 
 p {
-	font-size: 1.5rem;
+	font-size: 1.12rem;
+	line-height: 24px;
 }
 
 .container {
@@ -38,6 +39,40 @@ p {
 	text-align: center;
 }
 
+.slide-image {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 1.8rem 1.5rem 1.5rem 1.5rem;
+	background: url(/images/pattern-bg.svg) no-repeat center;
+	background-size: contain;
+	margin-bottom: 1rem;
+}
+
+.slide-image img {
+	height: 100%;
+	width: 250px;
+}
+
+.slide-text {
+	padding: 3rem 0;
+	background: url(./images/pattern-quotes.svg) no-repeat top center;
+}
+
+.slide-text .text {
+	margin-bottom: 1.2rem;
+}
+
+.author {
+	font-weight: 700;
+	font-size: 0.9rem;
+	line-height: 20px;
+}
+
+.author span {
+	display: block;
+	font-weight: 500;
+}
 
 .slide-2 {
 	display: none;
