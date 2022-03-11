@@ -1,23 +1,54 @@
 html {
 	font-family: "Inter", sans-serif;
+	font: 16px;
 }
 
 * {
 	box-sizing: border-box;
 }
 
+p {
+	font-size: 1.5rem;
+}
+
 .container {
 	min-height: 100vh;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url(./images/pattern-curve.svg);
+	background: no-repeat bottom url(./images/pattern-curve.svg);
+	padding: 2rem;
 }
+
+.slider {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+.slide {
+	width: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
 
 .slide-2 {
 	display: none;
 }
 
+/* desktop styles */
+@media only screen and (min-width: 1025px) {
+	.slider {
+		max-width: 80%;
+	}
+}
 .attribution {
 	font-size: 11px;
 	text-align: center;
