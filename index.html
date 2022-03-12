@@ -25,6 +25,10 @@
 	<body>
 		<main>
 			<section class="container" aria-label="carousel">
+				<p class="sr-only">
+					Carousel with one slide shown at a time. Use the Previous and Next
+					buttons to navigate.
+				</p>
 				<div class="slider">
 					<div class="slide slide-1" role="group" aria-label="slide 1 of 2">
 						<div class="slide-text">
@@ -57,8 +61,12 @@
 						</div>
 					</div>
 					<div class="slider-buttons">
-						<button class="prev"></button>
-						<button class="next"></button>
+						<button class="prev">
+							<span class="sr-only">Previous slide</span>
+						</button>
+						<button class="next">
+							<span class="sr-only">Next slide</span>
+						</button>
 					</div>
 				</div>
 			</section>
