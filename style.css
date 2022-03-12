@@ -87,6 +87,9 @@ p {
 	font-weight: 500;
 }
 
+button {
+	border: none;
+}
 .slider-buttons {
 	box-shadow: -15px 10px 30px 1px rgba(133, 133, 172, 0.75);
 	width: 80px;
@@ -109,8 +112,7 @@ p {
 
 .prev:hover,
 .next:hover {
-	display: none;
-	background-color: var(--grayish-blue);
+	cursor: pointer;
 }
 
 .next {
