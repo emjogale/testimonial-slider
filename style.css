@@ -10,17 +10,12 @@
 
 /* visually hidden */
 .sr-only {
-	border: 0 !important;
-	clip: rect(1px, 1px, 1px, 1px) !important;
-	-webkit-clip-path: inset(50%) !important;
-	clip-path: inset(50%) !important;
-	height: 1px !important;
-	margin: -1px !important;
-	overflow: hidden !important;
-	padding: 0 !important;
-	position: absolute !important;
-	width: 1px !important;
-	white-space: nowrap !important;
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
 
 html {
@@ -42,7 +37,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	background: url(./images/pattern-curve.svg) no-repeat bottom left;
-	background-size: contain;
+	background-size: 50% 20%;
 	padding: 2rem;
 }
 
@@ -65,12 +60,11 @@ p {
 }
 
 .slide-image {
-	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	padding: 1.8rem 1.5rem 1.5rem 1.5rem;
-	background: url(/images/pattern-bg.svg) no-repeat;
-	background-size: contain;
+	background: url(./images/pattern-bg.svg) no-repeat bottom right;
+	background-size: cover;
 	margin-bottom: 2rem;
 }
 
@@ -112,7 +106,7 @@ button {
 	border-radius: 25px;
 	background-color: white;
 	position: absolute;
-	top: 250px;
+	top: 260px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -147,6 +141,9 @@ button {
 
 /* desktop styles */
 @media only screen and (min-width: 1150px) {
+	/* .container {
+		background-size: contain;
+	} */
 	.slider {
 		max-width: 85%;
 		height: 70%;
@@ -156,10 +153,9 @@ button {
 		text-align: left;
 	}
 	.slide-image {
-		padding-left: 0;
+		padding: 3rem 4rem 3rem 2rem;
+
 		margin-left: -2rem;
-		padding-right: 4rem;
-		padding-bottom: 3rem;
 	}
 
 	.slide-image img {
@@ -167,7 +163,9 @@ button {
 	}
 
 	.slide-text {
-		background-position-x: 15%;
+		background-position-x: 25%;
+		background-size: 6rem;
+		padding-top: 3rem;
 	}
 
 	p {
@@ -184,7 +182,10 @@ button {
 	}
 	.slider-buttons {
 		left: 65%;
-		top: 550px;
+		top: 540px;
+		width: 112px;
+		height: 56px;
+		border-radius: 35px;
 	}
 }
 
@@ -196,11 +197,4 @@ button {
 	.slider-buttons {
 		top: 180px;
 	}
-}
-.attribution {
-	font-size: 11px;
-	text-align: center;
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
 }
