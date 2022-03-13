@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/emjogale/testimonial-slider](https://github.com/emjogale/testimonial-slider)
-- Live Site URL: [https://vercel.com/emjogale/testimonial-slider](https://vercel.com/emjogale/testimonial-slider)
+- Live Site URL: [https://testimonial-slider-zeta.vercel.app/](https://testimonial-slider-zeta.vercel.app)
 
 ## My process
 
