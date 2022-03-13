@@ -42,23 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-- I tried to make the slider as accessible as possible as I have read that they are notoriously not very accessible.
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-	color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
-```
+- I tried to make the slider as accessible as possible as I have read that they are generally not very accessible due to the varying ways of structuring them.
 
 ### Continued development
 
