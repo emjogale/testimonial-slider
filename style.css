@@ -36,8 +36,8 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(./images/pattern-curve.svg) no-repeat bottom left;
-	background-size: 50% 20%;
+	background: url(./images/pattern-curve.svg) no-repeat center;
+	background-size: contain;
 	padding: 2rem;
 }
 
@@ -181,8 +181,8 @@ button {
 		margin-left: 0.5rem;
 	}
 	.slider-buttons {
-		left: 65%;
-		top: 540px;
+		left: 60%;
+		top: 560px;
 		width: 112px;
 		height: 56px;
 		border-radius: 35px;
