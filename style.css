@@ -62,7 +62,7 @@ p {
 .slide-image {
 	height: 100%;
 	margin: 0 auto;
-	padding: 1.8rem 1.5rem 1.5rem 1.5rem;
+	padding: 1.8rem 2rem;
 	background: url(./images/pattern-bg.svg) no-repeat bottom right;
 	background-size: cover;
 	margin-bottom: 2rem;
