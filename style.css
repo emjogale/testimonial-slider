@@ -140,7 +140,7 @@ button {
 }
 
 /* desktop styles */
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1000px) {
 	/* .container {
 		background-size: contain;
 	} */
@@ -165,6 +165,7 @@ button {
 		background-position-x: 25%;
 		background-size: 6rem;
 		padding-top: 3rem;
+		min-width: 50%;
 	}
 
 	p {
