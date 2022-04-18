@@ -27,7 +27,7 @@ html {
 p {
 	font-weight: 300;
 	font-size: 1.12rem;
-	line-height: 24px;
+	line-height: 1.5;
 }
 
 .container {
@@ -87,7 +87,7 @@ p {
 .author {
 	font-weight: 700;
 	font-size: 0.9rem;
-	line-height: 20px;
+	line-height: 1.4;
 }
 
 .author span {
@@ -169,11 +169,10 @@ button {
 
 	p {
 		font-size: 2rem;
-		line-height: 44px;
+		line-height: 1.375;
 	}
 	.author {
 		font-size: 1.25rem;
-		line-height: 2rem;
 	}
 	.author span {
 		display: inline;
